@@ -1,4 +1,0 @@
-interface:
-  display_name: "GPT-stock"
-  short_description: "Current A-share 1-week short-term stock picks and trade levels"
-  default_prompt: "Use $GPT-stock to find the 5 A-share stocks with the highest one-week profit probability and give buy points, take-profit levels, stop-loss levels, and position sizing."
