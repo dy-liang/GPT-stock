@@ -5,10 +5,7 @@ It is designed to identify the **5 Chinese A-share stocks with the highest expec
 
 ## Version
 
-`v1.0`
-
-This is the first public version.
-Later versions will continue to improve stock screening logic, event analysis, risk controls, and output quality.
+`GPT-stock v1.0` is the foundation release.
 
 ## What This Skill Does
 
@@ -57,17 +54,16 @@ If the user does not provide extra constraints, `GPT-stock` assumes:
 Example prompts:
 
 ```text
+$GPT-stock
+```
+
+```text
 Use $GPT-stock to find the 5 A-share stocks with the highest one-week profit probability and give buy points, take-profit levels, stop-loss levels, and position sizing.
 ```
 
 ```text
 用 $GPT-stock 给我今天开始未来一周最值得做的5只A股，并直接给买点、止盈位、止损位和仓位比例。
 ```
-
-```text
-用 $GPT-stock，偏稳健一点，直接给答案。
-```
-
 ## Typical Result Format
 
 The output is usually presented as:
@@ -105,5 +101,3 @@ Future updates may include:
 - more refined portfolio allocation logic.
 
 ---
-
-`GPT-stock v1.0` is the foundation release, and further versions will continue to improve accuracy, structure, and usability.
